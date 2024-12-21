@@ -1,4 +1,4 @@
-# tire_sealant_calculator
+# tire-sealant-calculator
 
 A webpage of the tire sealant calculator by [James Huang](https://nminus1bikes.substack.com/p/quit-guessing-how-much-tubeless-sealant)
 

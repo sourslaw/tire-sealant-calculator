@@ -1,18 +1,14 @@
-// function calc() {
-//   var amount = document.getElementById("rimDiameter").value;
-//   var amount = parseInt(amount, 10);
-//   var quantity = document.getElementById("rimWidth").value;
-//   var quantity = parseInt(quantity, 10);
-//   var total = amount * quantity;
-//   document.getElementById("total").value = total;
-// }
 console.log("js here")
+
 document.getElementById('calculate').addEventListener('click', function() {
 	console.log('click')
   var amount = document.getElementById("amount").value;
   var amount = +amount;
   var quantity = document.getElementById("quantity").value;
   var quantity = +quantity;
-  var total = amount * quantity;
-  document.getElementById("total").value = total;
+  var total = 4*3.14*3.14*((amount/1000/2)+(quantity/1000/2))*quantity/1000/2*300;
+	
+  document.getElementById("total").value = Math.round(total);
 });
+
+// =4*3.14*3.14*((B2/1000/2)+(B3/1000/2))*B3/1000/2*300

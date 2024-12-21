@@ -1,0 +1,52 @@
+/* font */
+span, table {
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* hide scroll bar, but can still scroll */
+::-webkit-scrollbar {
+	display: none;
+}
+
+.navbar {
+	background-color: #a3b18a;
+}
+
+/* table title */
+span {
+	display: table;
+	margin: 0 auto;
+}
+/* table head */
+thead {
+	word-break: break-word;
+	#longey {
+		word-break: break-all;
+	}
+}
+/* table body */
+.tbl-center {
+	text-align: center;
+}
+
+/* footer link */
+a:link {
+	color: grey;
+	text-decoration: none;
+}
+a:visited {
+  color: grey;
+}
+a:hover {
+	color: #a3b18a;
+	text-decoration: none;
+}
+
+/* media */
+@media (max-width: 768px) {
+	.container{
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+		font-size: 14px;
+	}
+}

@@ -17,17 +17,6 @@ span {
 	display: table;
 	margin: 0 auto;
 }
-/* table head */
-thead {
-	word-break: break-word;
-	#longey {
-		word-break: break-all;
-	}
-}
-/* table body */
-.tbl-center {
-	text-align: center;
-}
 
 /* footer link */
 a:link {
@@ -43,10 +32,10 @@ a:hover {
 }
 
 /* media */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
 	.container{
 		padding-left: 0 !important;
 		padding-right: 0 !important;
 		font-size: 14px;
 	}
-}
+} */
